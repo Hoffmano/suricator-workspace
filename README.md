@@ -3,9 +3,11 @@
 ## Instruções para executar o projeto
 
 1. Clone todos os repositórios que você tem interesse em trabalhar dentro da mesma pasta
-2. Clone o repositório `suricator-workspace`
-3. Abra um terminal na raiz do repositório `suricator-workspace`
-4. Execute `docker-compose up`
+    - Vue: https://github.com/Hoffmano/suricator-vue.git
+    - Backend: https://github.com/Hoffmano/suricator-backend.git
+    - NLP: https://github.com/Hoffmano/suricator-nlp.git
+2. Abra um terminal na raiz do repositório `suricator-workspace`
+3. Execute `docker-compose up`
 
 ## Opcionais
 
@@ -18,5 +20,5 @@ Para isso comente o serviço que não tenha interesse dentro do docker-compose.y
 - Suricator
   - suricator-workspace
   - suricator-backend
-  - suricator-web
+  - suricator-vue
   - suricator-nlp
