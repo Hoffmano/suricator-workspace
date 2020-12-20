@@ -1,0 +1,34 @@
+version: '3'
+
+services:
+  backend:
+    container_name: backend
+    image: node
+    working_dir: /backend
+    volumes:
+      - ../suricator-backend:/backend
+    ports: 
+      - 3333:3333
+    env_file:
+      - ../suricator-backend/.env
+    command: bash -c "yarn && yarn dev"
+  
+  web:
+    container_name: web
+    image: node
+    working_dir: /web
+    volumes:
+      - ../study-web:/web
+    ports:
+      - 8080:8080
+    command: bash -c "yarn && yarn dev"
+  
+  nlp:
+    container_name: nlp
+    image: tiangolo/uwsgi-nginx-flask
+    working_dir: /nlp
+    volumes:
+      - ../suricator-nlp:/nlp
+    ports:
+      - 5000:5000
+    command: bash -c "source ./venv/bin/activate && pip3 install spacy && python3 -m spacy download en && pip3 install -r requirements.txt && python3 main.py"
