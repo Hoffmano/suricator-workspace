@@ -1,19 +1,19 @@
 {
 	"folders": [
 		{
-			"name": "suricator-backend",
+			"name": "backend",
 			"path": "../suricator-backend"
 		},
 		{
-			"name": "study-web",
-			"path": "../study-web"
+			"name": "web",
+			"path": "../suricator-vue"
 		},
 		{
-			"name": "suricator-nlp",
+			"name": "nlp",
 			"path": "../suricator-nlp"
 		},
 		{
-			"name": "suricator-workspace",
+			"name": "workspace",
 			"path": "."
 		}
 	]

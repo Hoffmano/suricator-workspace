@@ -18,7 +18,7 @@ services:
     image: node
     working_dir: /web
     volumes:
-      - ../study-web:/web
+      - ../suricator-vue:/web
     ports:
       - 8080:8080
     command: bash -c "yarn && yarn dev"
