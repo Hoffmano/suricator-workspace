@@ -3,7 +3,7 @@
 ## Instruções para executar o projeto
 
 1. Clone todos os repositórios que você tem interesse em trabalhar dentro da mesma pasta
-    - Vue: https://github.com/Hoffmano/suricator-nuxt.git
+    - Nuxt: https://github.com/Hoffmano/suricator-nuxt.git
     - Backend: https://github.com/Hoffmano/suricator-backend.git
     - NLP: https://github.com/Hoffmano/suricator-nlp.git
 2. Abra um terminal na raiz do repositório `suricator-workspace`
@@ -20,5 +20,5 @@ Para isso comente o serviço que não tenha interesse dentro do docker-compose.y
 - Suricator
   - suricator-workspace
   - suricator-backend
-  - suricator-vue
+  - suricator-nuxt
   - suricator-nlp
