@@ -3,7 +3,7 @@
 ## Instruções para executar o projeto
 
 1. Clone todos os repositórios que você tem interesse em trabalhar dentro da mesma pasta
-    - Vue: https://github.com/Hoffmano/suricator-vue.git
+    - Vue: https://github.com/Hoffmano/suricator-nuxt.git
     - Backend: https://github.com/Hoffmano/suricator-backend.git
     - NLP: https://github.com/Hoffmano/suricator-nlp.git
 2. Abra um terminal na raiz do repositório `suricator-workspace`
